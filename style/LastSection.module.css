@@ -109,3 +109,6 @@ flex-wrap: wrap;
         align-items: center;
     }
 }
+.images{
+   height: 300px;
+}

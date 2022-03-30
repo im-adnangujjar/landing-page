@@ -1,10 +1,10 @@
 import { Grid, imageListClasses } from '@mui/material'
 import React from 'react'
 import styles from '../../../../style/LastSection.module.css'
-// import Image from 'Next/image'
+import Image from 'Next/image'
 import { skillData } from '../../../component/data/data'
-// import image from '../../../assets/image4.png'
-import { style } from '@mui/system'
+import image from '../../../assets/image4.png'
+
 
 function LastSection() {
     return (
@@ -20,7 +20,7 @@ function LastSection() {
                                     <div key={index}>
                                         <div className={styles.bgColor}>
                                             <div className={styles.display}>
-                                               <div className={styles.image}> <img src="../../../assets/image4.png" alt="image not found"/> </div>
+                                               <div className={styles.image}> <Image objectFit='fill' height={188} src={image} alt="image not found"/> </div>
                                                 <div><p className={styles.paragraph}>{item.title}</p>
                                                     <p className={styles.paragraph1}>{item.text}</p>
                                                 </div>

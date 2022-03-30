@@ -11,13 +11,13 @@ function ThirdSection() {
             <div className={styles.mainContainer1}>
                 <h1 className={styles.heading1}>100% free</h1>
                <p className={styles.paragraph3}>Start Learning with Free Courses</p>
-               <p className={styles.paragraph4}>Free online courses from the world's top universities and companies.</p>
+               <p className={styles.paragraph4}>{`Free online courses from the world's top universities and companies.`}</p>
       
             <div className={styles.display1}>
-                {newData.map((item) => {
+                {newData.map((item,index) => {
                     return (
                         
-                            <div style={{ background: item.background }} className={styles.mainContainer}>
+                            <div key={index} style={{ background: item.background }} className={styles.mainContainer}>
                                 <div className={styles.bgColor}><h1 className={styles.heading}>Job Gurantee</h1></div>
                                 <p className={styles.paragraph}>{item.title}</p>
 

@@ -14,10 +14,10 @@ function LastSection() {
                     <h1 className={styles.heading}>Explore Courses</h1>
                     <div className={styles.display1}>
                         {
-                            skillData.map((item) => {
+                            skillData.map((item,index) => {
                                 return (
                             
-                                    <div>
+                                    <div key={index}>
                                         <div className={styles.bgColor}>
                                             <div className={styles.display}>
                                                <div className={styles.image}> <img src="../../../assets/image4.png" alt="image not found"/> </div>

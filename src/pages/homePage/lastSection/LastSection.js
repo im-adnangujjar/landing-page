@@ -1,7 +1,7 @@
 import { Grid, imageListClasses } from '@mui/material'
 import React from 'react'
 import styles from '../../../../style/LastSection.module.css'
-import Image from 'Next/image'
+import Image from 'next/image'
 import { skillData } from '../../../component/data/data'
 import image from '../../../assets/image4.png'
 

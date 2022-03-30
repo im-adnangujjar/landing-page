@@ -1,0 +1,111 @@
+.mainContainer{
+    background-color:  #B3C8F1;
+padding:50px;
+
+    
+}
+.heading{
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+    margin-top:0px;
+}
+.bgColor{
+    background-color: white;
+    width:605px;
+    height:142px;
+    margin-bottom:20px
+}
+.paragraph{
+    font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+margin-left:34px;
+
+}
+.paragraph1{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left:34px;
+    
+}
+.display1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.image{
+    background-color: red;
+    width:124px;
+     height:142px 
+}
+@media only  screen and (max-width:400px) {
+    .image{
+        background-color: red;
+        width:124px;
+         height:132px 
+    }  
+}
+.display{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+@media only screen and (max-width:1350px)  {
+    .mainContainer{
+        background-color:  #B3C8F1;
+        padding: 40px 15px;
+    }
+    .bgColor{
+        background-color: white;
+        width:550px;
+        height:142px;
+        margin-bottom :20px
+    }
+    .display1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media only screen and (max-width:560px)  {
+    .bgColor{
+        background-color: white;
+        width:400px;
+        height:142px;
+        margin-bottom:20px
+
+    }
+    .display{
+        display:flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}
+@media only screen and (max-width:400px)  {
+    .bgColor{
+        background-color: white;
+        width:300px;
+        height:132px;
+        margin-bottom:20px
+
+    }
+    .display{
+        display:flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}

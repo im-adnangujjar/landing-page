@@ -1,0 +1,131 @@
+
+
+ .maiContainer{
+    padding:0px 50px  ;
+   /* background-color: blue;
+    height:100vh;*/
+} 
+.paragraph{
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    width: 620px;
+    margin-top: 40px;
+}
+@media only screen and (max-width:1335px) {
+    .paragraph{
+    margin-top: 30px;
+    }
+}
+.paragraph1{
+    font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+width: 530px;
+}
+.image{
+    margin-top:40px;
+}
+.button{
+background-color:  #0000FE;
+width:190px;
+height:60px;
+border-radius: 8px;
+display :flex;
+justify-content:center;
+align-items: center;
+margin:40px 0px;
+}
+.buttonStyle{
+
+    font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+color:white;
+}
+.display{
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+@media only screen and (max-width:940px){
+    .paragraph{
+        font-family: Roboto;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        
+        /* margin-top: 110px; */
+        /* padding:20px; */
+      
+    }
+    .paragraph1{
+        font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* width: 330px; */
+    }
+    
+}
+@media only screen and (max-width:670px){
+    .maiContainer{
+        padding:0px 15px  ;
+    }
+      .paragraph{
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        width: 400px;
+        /* margin-top: 110px; */
+        /* padding:0px 20px; */
+      
+    }
+    .paragraph1{
+        font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 400px;
+    /* padding:0px 20px ; */
+    margin: 0px 0px;
+    }  
+}
+@media only screen and (max-width:420px){
+    .maiContainer{
+        padding:0px 15px  ;
+    }
+      .paragraph{
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        width: 300px;
+        /* margin-top: 110px; */
+        /* padding:0px 20px; */
+      
+    }
+    .paragraph1{
+        font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 300px;
+    /* padding:0px 20px ; */
+    margin: 0px 0px;
+    }  
+}

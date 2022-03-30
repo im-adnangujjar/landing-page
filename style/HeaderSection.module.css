@@ -1,0 +1,126 @@
+.mainContainer{
+    background-color:blue;
+    width:100%;
+    height:auto;
+    padding:0px 50px;
+}
+@media only screen and (max-width:650px){
+    .mainContainer{
+    
+    padding:0px 15px;
+}
+}
+.heading{
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+color:white
+
+}
+@media only screen and (max-width:650px) {
+    .heading{
+       font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+color:white
+p
+} 
+}
+
+.paragraph{
+    width: 446px;
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+color :white;
+margin:34px 0px 0px ;
+}
+@media only screen and (max-width:650px) {
+    .paragraph{
+        width: 300px;
+        font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color :white;
+    margin:34px 0px 0px ;
+    }
+}
+.bgColor{
+    background-color:white;
+    height: 48px;
+width: 355px;
+border-radius: 8px;
+padding: 10px, 16px, 10px, 16px;
+margin:52px 0px 0px ;
+display :flex;
+justify-content:center;
+align-items:center;
+
+}
+
+
+@media only screen and (max-width:650px) {
+    .bgColor{
+        background-color:white;
+        height: 48px;
+    width: 280px;
+    border-radius: 8px;
+    padding: 10px, 16px, 10px, 16px;
+    margin:40px 0px 0px ;
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+}
+.paragraph1{
+    font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+@media only screen and (max-width:650px) {
+    .paragraph1{
+        font-family: Roboto;
+    font-size:18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    }
+}
+.image{
+margin:70px 0px 64px 30px;
+}
+@media only screen and (max-width:1170px) {
+    .image{
+        /* margin:50px 0px 44px 0px; */
+        display:flex;
+        justify-content: center;
+        
+        } 
+}
+.display{
+    display: flex;
+/* display: flex; */
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+/* @media only screen and (max-width:1100px) { */
+
+.display{
+    display: flex;
+
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+} 
+/* } */

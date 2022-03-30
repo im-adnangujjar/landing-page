@@ -20,10 +20,10 @@ function SecondSection() {
                 <div className={styles.margin}>
 
                     <div className={styles.display1}>
-                        {data.map((item) => {
+                        {data.map((item,index) => {
                             return (
 
-                                <div style={{ background: item.background }} className={styles.mainContainer}>
+                                <div key={index} style={{ background: item.background }} className={styles.mainContainer}>
                                     <div className={styles.bgColor}><h1 className={styles.heading}>Job Gurantee</h1></div>
                                     <p className={styles.paragraph}>{item.title}</p>
 

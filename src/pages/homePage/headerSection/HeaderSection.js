@@ -2,7 +2,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import Styles from '../../../../style/HeaderSection.module.css'
 import Navbar from '../../../component/navbar/Navbar'
-import Image from 'Next/image'
+import Image from 'next/image'
 import image from '../../../assets/image 1.png'
 
 function HeaderSection() {

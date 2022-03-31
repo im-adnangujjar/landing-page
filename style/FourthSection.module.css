@@ -2,8 +2,6 @@
 
  .maiContainer{
     padding:0px 50px  ;
-   /* background-color: blue;
-    height:100vh;*/
 } 
 .paragraph{
     font-family: Roboto;
@@ -16,7 +14,7 @@
 }
 @media only screen and (max-width:1335px) {
     .paragraph{
-    margin-top: 30px;
+    margin-top: 0px;
     }
 }
 .paragraph1{
@@ -28,7 +26,8 @@ line-height: 28px;
 width: 530px;
 }
 .image{
-    margin-top:40px;
+    margin:40px 0px;
+    padding:0px;
 }
 .button{
 background-color:  #0000FE;
@@ -51,7 +50,7 @@ color:white;
 }
 .display{
 display:flex;
-justify-content: space-around;
+justify-content: space-between;
 flex-wrap: wrap;
 }
 
@@ -62,10 +61,6 @@ flex-wrap: wrap;
         font-style: normal;
         font-weight: 700;
         line-height: 42px;
-        
-        /* margin-top: 110px; */
-        /* padding:20px; */
-      
     }
     .paragraph1{
         font-family: Roboto;
@@ -73,9 +68,7 @@ flex-wrap: wrap;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* width: 330px; */
     }
-    
 }
 @media only screen and (max-width:670px){
     .maiContainer{
@@ -88,9 +81,6 @@ flex-wrap: wrap;
         font-weight: 700;
         line-height: 42px;
         width: 400px;
-        /* margin-top: 110px; */
-        /* padding:0px 20px; */
-      
     }
     .paragraph1{
         font-family: Roboto;
@@ -99,7 +89,6 @@ flex-wrap: wrap;
     font-weight: 400;
     line-height: 28px;
     width: 400px;
-    /* padding:0px 20px ; */
     margin: 0px 0px;
     }  
 }

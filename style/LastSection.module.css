@@ -1,6 +1,7 @@
 .mainContainer{
     background-color:  #B3C8F1;
 padding:50px;
+width: 100vw;
 
     
 }
@@ -13,12 +14,7 @@ padding:50px;
     margin-bottom: 30px;
     margin-top:0px;
 }
-.bgColor{
-    background-color: white;
-    width:50%;
-    height:5%px;
-    margin-bottom:20px
-}
+
 .paragraph{
     font-family: Roboto;
 font-size: 24px;
@@ -41,74 +37,36 @@ margin-left:34px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-items: center;
 flex-wrap: wrap;
 }
-.image{
-    background-color: red;
-    width:124px;
-     height:142px 
-}
-@media only  screen and (max-width:400px) {
-    .image{
-        background-color: red;
-        width:124px;
-         height:132px 
-    }  
-}
 .display{
-    display:flex;
-    /* justify-content: center; */
-    align-items: center;
+    display: flex;
 }
-@media only screen and (max-width:1350px)  {
+.bgColor{
+    background-color: white;
+    width:45vw;
+    height:142px;
+    margin-bottom:20px
+}
+@media only screen and (max-width:998px) {
+    .bgColor{
+        width: 95vw;
+        /* height:180px */
+    }  
+    .image{
+        width:100px;
+         height:180px 
+    } 
+}
+@media only screen and (max-width:480px) {
     .mainContainer{
         background-color:  #B3C8F1;
-        padding: 40px 15px;
+    padding:15px;
     }
-    .bgColor{
-        background-color: white;
-        width:550px;
-        height:142px;
-        margin-bottom :20px
-    }
-    .display1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+}
+.image{
 
-}
-@media only screen and (max-width:560px)  {
-    .bgColor{
-        background-color: white;
-        width:400px;
-        height:142px;
-        margin-bottom:20px
+    width:200px;
+     height:142px 
+} 
 
-    }
-    .display{
-        display:flex;
-        /* justify-content: center; */
-        align-items: center;
-    }
-}
-@media only screen and (max-width:400px)  {
-    .bgColor{
-        background-color: white;
-        width:300px;
-        height:132px;
-        margin-bottom:20px
-
-    }
-    .display{
-        display:flex;
-        /* justify-content: center; */
-        align-items: center;
-    }
-}
-.images{
-   height: 300px;
-}

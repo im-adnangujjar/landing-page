@@ -15,7 +15,7 @@ function LastSection() {
                                 return (
                                         <div key={index} className={styles.bgColor}>
                                             <div className={styles.display}>
-                                                <div> <img  className={styles.image}src={'/image4.png'} alt="image not found" /> </div>
+                                                 <img  className={styles.image}src={'/image4.png'} alt="image not found" /> 
                                                 <div>
                                                     <p className={styles.paragraph}>{item.title}</p>
                                                     <p className={styles.paragraph1}>{item.text}</p>

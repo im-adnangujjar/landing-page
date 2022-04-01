@@ -3,6 +3,12 @@
  .maiContainer{
     padding:0px 50px  ;
 } 
+.image{
+    width:43vw;
+    height:auto;
+    margin:40px 1px;
+    padding:0px;
+}
 .paragraph{
     font-family: Roboto;
     font-size: 48px;
@@ -12,11 +18,6 @@
     width: 620px;
     margin-top: 40px;
 }
-@media only screen and (max-width:1335px) {
-    .paragraph{
-    margin-top: 0px;
-    }
-}
 .paragraph1{
     font-family: Roboto;
 font-size: 24px;
@@ -24,10 +25,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px;
 width: 530px;
-}
-.image{
-    margin:40px 0px;
-    padding:0px;
 }
 .button{
 background-color:  #0000FE;
@@ -53,27 +50,13 @@ display:flex;
 justify-content: space-between;
 flex-wrap: wrap;
 }
-
-@media only screen and (max-width:940px){
-    .paragraph{
-        font-family: Roboto;
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 42px;
-    }
-    .paragraph1{
-        font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
+@media only screen and (max-width:1275px){
+    .display{
+        justify-content:center;
     }
 }
+
 @media only screen and (max-width:670px){
-    .maiContainer{
-        padding:0px 15px  ;
-    }
       .paragraph{
         font-family: Roboto;
         font-size: 30px;
@@ -91,6 +74,7 @@ flex-wrap: wrap;
     width: 400px;
     margin: 0px 0px;
     }  
+    
 }
 @media only screen and (max-width:420px){
     .maiContainer{
@@ -102,9 +86,9 @@ flex-wrap: wrap;
         font-style: normal;
         font-weight: 700;
         line-height: 42px;
-        width: 300px;
-        /* margin-top: 110px; */
-        /* padding:0px 20px; */
+        width: 320px;
+        margin-top: 20px;
+        padding:0px 20px;
       
     }
     .paragraph1{
@@ -114,7 +98,11 @@ flex-wrap: wrap;
     font-weight: 400;
     line-height: 28px;
     width: 300px;
-    /* padding:0px 20px ; */
-    margin: 0px 0px;
+    padding:0px 0px 0px 20px ;
+    margin: 0px ;
+    
     }  
+    .button{
+        margin-left:20px
+    }
 }

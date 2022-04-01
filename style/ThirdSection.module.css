@@ -109,16 +109,6 @@ padding:0px 50px;
     padding-top: 30px ;
     margin: 0%;
      }
-     @media only screen and (max-width:1380px) {
-        .display1{
-            display:flex;
-            justify-content:space-around;
-
-            align-items: center;
-            flex-wrap:wrap ;
-           
-         }
-     }
      @media only screen and (max-width:1060px) {
         .display1{
             display:flex;
@@ -126,14 +116,7 @@ padding:0px 50px;
             align-items:center;
          }
      }
-     @media only screen and (max-width:550px) {
-        .mainContainer1{
-            background-color: #B3C8F1;
-            padding: 15px;
-            
-             }
-     }
-     @media only screen and (max-width:950px) {
+     @media only screen and (max-width:1240px) {
         .mainContainer{
             border-radius: 8px;
                 width:320px;
@@ -153,3 +136,11 @@ padding:0px 50px;
             
             }
      }
+     @media only screen and (max-width:550px) {
+        .mainContainer1{
+            background-color: #B3C8F1;
+            padding: 15px;
+            
+             }
+     }
+     

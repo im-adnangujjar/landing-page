@@ -1,7 +1,8 @@
 .mainContainer{
     background-color:  #B3C8F1;
 padding:50px;
-width: 100vw;
+width: 100%;
+/* overflow: hidden; */
 
     
 }

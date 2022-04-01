@@ -3,8 +3,6 @@
 padding:50px;
 width: 100%;
 /* overflow: hidden; */
-
-    
 }
 .heading{
     font-family: Roboto;
@@ -38,10 +36,12 @@ margin-left:34px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+align-items:  center;
 flex-wrap: wrap;
 }
 .display{
     display: flex;
+    align-items: center;
 }
 .bgColor{
     background-color: white;
@@ -49,30 +49,63 @@ flex-wrap: wrap;
     height:142px;
     margin-bottom:20px
 }
-@media only screen and (max-width:998px) {
+@media only screen and (max-width:1080px) {
     .bgColor{
         width: 95vw;
-    }  
-    .image{
-        width:100px;
-         height:180px 
-    } 
-    .image{
+        height:200px
+    }
 
-        width:200px;
-         height:142px 
-    } 
-    
+.image{
+
+    width:300px;
+     height: 200px
+} 
+}
+@media only screen and (max-width:870px) {
+    .bgColor{
+        width: 95vw;
+        height:142px
+    }
+
+.image{
+
+    width:200px;
+     height: 142px
+} 
 }
 @media only screen and (max-width:480px) {
     .mainContainer{
         background-color:  #B3C8F1;
     padding:15px;
     }
+    .bgColor{
+        width: 95vw;
+        height:142px
+    }
+
+
     .image{
 
         width:135px;
          height:142px 
     } 
 }
-
+@media only screen and (max-width:335px) {
+    .paragraph{
+        font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left:18px;
+    
+    }
+    .paragraph1{
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-left:18px;
+}
+}

@@ -9,9 +9,9 @@
     line-height: 56px;
     
 }
-.icon{
-    display:none;
-}
+/* .icon{ */
+    /* display:none; */
+/* } */
 @media only screen and (max-width:650) {
     .logo{
         font-size: 42px;
@@ -52,12 +52,12 @@ padding:0px 10px
     color: white;
 
 }
-@media only  screen and (max-width:1050px){
+@media only  screen and (max-width:1020px){
     .list{
-
-        display:none;
        
+        display:none
     
     }
+
     
 }

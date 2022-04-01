@@ -6,7 +6,6 @@ import SecondSection from '../src/pages/homePage/secondSection/SecondSection'
 import ThirdSection from '../src/pages/homePage/thirdSection/ThirdSection'
 import Drawer from '../src/component/drawer/Drawer'
 
-// import FourthSection from '../src/pages/homePage/fourthSection/FourthSection'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -17,6 +16,7 @@ function MyApp({ Component, pageProps }) {
    <ThirdSection/>
  <FourthSection/> 
   <LastSection/>
+  <Drawer/>
   </>
 }
 

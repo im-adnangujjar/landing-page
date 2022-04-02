@@ -5,6 +5,9 @@ import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
+import MenuIcon from '@mui/icons-material/Menu';
+import styles from '../../../style/Navbar.module.css'
+
 
 
 
@@ -42,9 +45,13 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      {['right'] .map((anchor) => (
+      {[''] .map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}>{anchor}
+         <div><MenuIcon className={styles.icon}/></div>
+          
+          
+          </Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

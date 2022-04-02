@@ -1,7 +1,5 @@
 
 import styles from '../../../style/Navbar.module.css'
-// import MenuIcon from '@mui/icons-material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
 import TemporaryDrawer from '../drawer/Drawer';
 
 function Navbar() {
@@ -11,7 +9,7 @@ function Navbar() {
             <div className={styles.display}>
            
                 <div className={styles.logo}>LOGO</div>
-            {/* <div className={styles.icon}> <MenuIcon /> </div> */}
+            
             <TemporaryDrawer/>
             
 

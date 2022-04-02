@@ -95,14 +95,13 @@ width: 43%;
 height:auto;
 margin:30px 0px
 }
-/* @media only screen and (max-width:1170px) {
+@media only screen and (max-width:1170px) {
     .image{
-        margin:50px 0px 44px 0px;
+        width: 100%;
         display:flex;
-        justify-content: center;
-        
         } 
-} */
+}
+
 .display{
     display: flex;
 justify-content: space-between;

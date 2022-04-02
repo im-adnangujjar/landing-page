@@ -167,6 +167,11 @@ padding:0px 50px;
                     }
                         }
 
+                @media only screen and (max-width:730px) {
+                    .mainContainer{
+                        width:310px;
+                }
+                }
      @media only screen and (max-width:550px) {
         .mainContainer1{
             background-color: #B3C8F1;

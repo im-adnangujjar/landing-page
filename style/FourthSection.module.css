@@ -9,6 +9,17 @@
     margin:40px 1px;
     padding:0px;
 }
+@media only screen and (max-width:1300px){
+    .image{
+        width:50%;
+    }
+}
+@media only screen and (max-width:1300px){
+    .image{
+        width:100%;
+    }
+}
+
 .paragraph{
     font-family: Roboto;
     font-size: 48px;
@@ -50,7 +61,7 @@ display:flex;
 justify-content: space-between;
 flex-wrap: wrap;
 }
-@media only screen and (max-width:1275px){
+@media only screen and (max-width:1300px){
     .display{
         justify-content:center;
     }
